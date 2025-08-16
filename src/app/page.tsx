@@ -156,7 +156,7 @@ export default function Home() {
           {/* Profile Photo */}
           <div className="flex-shrink-0">
             <img
-              src="https://images.unsplash.com/photo-1494790108755-2616b612b19c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+              src="profil.jpeg"
               alt="Profile"
               className="w-20 h-20 rounded-full object-cover border-4 border-white shadow-lg"
             />
@@ -165,28 +165,31 @@ export default function Home() {
           {/* Profile Info */}
           <div className="flex-grow">
             <h1 className="text-3xl font-bold text-gray-900 mb-2">
-              Eliana Garcia
+              Wahyu Dharmawan
             </h1>
-            <p className="text-lg text-gray-600 mb-6">
-              Graphic Designer, Web designer/developer
-            </p>
+            <p className="text-lg text-gray-600 mb-6">Frontend Developer</p>
           </div>
         </div>
 
         {/* Description */}
         <div className="prose prose-lg max-w-none">
           <p className="text-gray-700 leading-relaxed mb-6">
-            I am a seasoned graphic designer with over 14 years of experience in
-            creating visually appealing and user-centric designs. My expertise
-            spans across UI design, design systems, and custom illustrations,
-            helping clients bring their digital visions to life.
+            I am a Frontend Web Developer with over four years of experience at
+            PT Bukit Makmur Mandiri Utama. I specialize in building user
+            interfaces using Vue.js and TypeScript, as well as converting Figma
+            designs into functional web pages. I am also skilled in integrating
+            APIs, managing data, and performing testing and bug fixes.
+            Additionally, I keep code up-to-date and document it clearly. With
+            expertise in JavaScript, HTML5, CSS, Tailwind CSS, TypeScript, VueJS
+            and NextJS, I am committed to delivering high-quality web solutions
+            and enhancing user experiences.
           </p>
-          <p className="text-gray-700 leading-relaxed">
+          {/* <p className="text-gray-700 leading-relaxed">
             Currently, I work remotely for Notion, where I design template UIs,
             convert them into HTML and CSS, and provide comprehensive support to
             our users. I am passionate about crafting elegant and functional
             designs that enhance user experiences.
-          </p>
+          </p> */}
         </div>
 
         {/* Contact Links */}
@@ -201,10 +204,10 @@ export default function Home() {
               <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
             </svg>
             <a
-              href="mailto:elianagarcia997@about.me"
+              href="mailto:wahyu.dhrmwn08@gmail.com"
               className="text-blue-600 hover:underline"
             >
-              elianagarcia997@about.me
+              wahyu.dhrmwn08@gmail.com
             </a>
           </div>
 
@@ -214,13 +217,13 @@ export default function Home() {
               fill="currentColor"
               viewBox="0 0 24 24"
             >
-              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
             </svg>
             <a
-              href="https://twitter.com/elianagarcia997"
+              href="https://instagram.com/wahyudhrmwn"
               className="text-blue-600 hover:underline"
             >
-              @elianagarcia997
+              @wahyudhrmwn
             </a>
           </div>
 
@@ -230,13 +233,13 @@ export default function Home() {
               fill="currentColor"
               viewBox="0 0 24 24"
             >
-              <path d="M12 0C5.374 0 0 5.373 0 12s5.374 12 12 12 12-5.373 12-12S18.626 0 12 0zm5.568 8.16c-.169 1.858-.896 3.463-2.085 4.652-1.19 1.189-2.794 1.916-4.653 2.085-.047-.001-.094-.003-.141-.003s-.094.002-.141.003c-1.858-.169-3.462-.896-4.652-2.085C4.707 11.623 3.98 10.018 3.811 8.16c.001-.047.003-.094.003-.141s-.002-.094-.003-.141c.169-1.858.896-3.463 2.085-4.652C7.085 1.637 8.689.91 10.548.741c.047.001.094.003.141.003s.094-.002.141-.003c1.858.169 3.462.896 4.652 2.085 1.189 1.19 1.916 2.794 2.085 4.652-.001.047-.003.094-.003.141s.002.094.003.141z" />
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
             </svg>
             <a
-              href="https://dribbble.com/elianagarcia997"
+              href="https://linkedin.com/in/wahyu-dharmawan"
               className="text-blue-600 hover:underline"
             >
-              @elianagarcia997
+              Wahyu Dharmawan
             </a>
           </div>
         </div>
@@ -369,142 +372,166 @@ export default function Home() {
               <div className="font-medium text-gray-700">Design Tools:</div>
               <div className="md:col-span-3">
                 <div className="flex items-center gap-2 text-gray-700">
-                  <svg
-                    className="w-4 h-4 text-purple-600"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                  >
-                    <path d="M15.332 8.668a3 3 0 0 0 0-4.336l-1.332-1.332h-4v4l1.332 1.332a3 3 0 0 0 4.236 0l-.236-.664z" />
-                  </svg>
-                  <span>Figma,</span>
-                  <svg
-                    className="w-4 h-4 text-orange-500 ml-4"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                  >
-                    <path d="M24 7.335c-.001-1.47-.001-2.94 0-4.41C24.001 1.316 22.685.001 21.076.001L2.924.001C1.316.001 0 1.316 0 2.924v18.15c0 1.609 1.316 2.925 2.924 2.925h18.15c1.609 0 2.925-1.316 2.925-2.925V7.335h.001z" />
-                  </svg>
-                  <span>Sketch,</span>
+                  <img src="/icon/figma.png" alt="Figma" className="w-4 h-4" />
+                  <span>Figma</span>
                 </div>
               </div>
             </div>
 
-            {/* Development */}
+            {/* Frontend Technologies */}
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-              <div className="font-medium text-gray-700">Development:</div>
+              <div className="font-medium text-gray-700">
+                Frontend Technologies:
+              </div>
               <div className="md:col-span-3">
                 <div className="flex items-center gap-2 text-gray-700 flex-wrap">
                   <div className="flex items-center gap-1">
-                    <svg
-                      className="w-4 h-4 text-orange-600"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" />
-                    </svg>
-                    <span>HTML,</span>
+                    <img
+                      src="/icon/javascript.png"
+                      alt="JavaScript"
+                      className="w-4 h-4"
+                    />
+                    <span>JavaScript,</span>
                   </div>
                   <div className="flex items-center gap-1">
-                    <svg
-                      className="w-4 h-4 text-blue-600"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z" />
-                    </svg>
-                    <span>CSS,</span>
+                    <img
+                      src="/icon/typescript.png"
+                      alt="TypeScript"
+                      className="w-4 h-4"
+                    />
+                    <span>TypeScript,</span>
                   </div>
                   <div className="flex items-center gap-1">
-                    <svg
-                      className="w-4 h-4 text-cyan-500"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z" />
-                    </svg>
+                    <img src="/icon/vue.png" alt="Vue.js" className="w-4 h-4" />
+                    <span>Vue.js,</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <img
+                      src="/icon/next.png"
+                      alt="Next.js"
+                      className="w-4 h-4"
+                    />
+                    <span>Next.js</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Styling & UI */}
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+              <div className="font-medium text-gray-700">Styling & UI:</div>
+              <div className="md:col-span-3">
+                <div className="flex items-center gap-2 text-gray-700 flex-wrap">
+                  <div className="flex items-center gap-1">
+                    <img src="/icon/html.png" alt="HTML5" className="w-4 h-4" />
+                    <span>HTML5,</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <img src="/icon/css.png" alt="CSS3" className="w-4 h-4" />
+                    <span>CSS3,</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <img
+                      src="/icon/tailwindcss.png"
+                      alt="Tailwind CSS"
+                      className="w-4 h-4"
+                    />
                     <span>Tailwind CSS,</span>
                   </div>
                   <div className="flex items-center gap-1">
-                    <svg
-                      className="w-4 h-4 text-blue-500"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.36-.034-.47 0-.92.01-1.36.034.44-.572.895-1.096 1.36-1.564zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.36.034.47 0 .92-.01 1.36-.034-.44.572-.895 1.095-1.36 1.56-.465-.467-.92-.992-1.36-1.56z" />
-                    </svg>
-                    <span>React,</span>
+                    <img
+                      src="/icon/prelineui.jpg"
+                      alt="Tailwind CSS"
+                      className="w-4 h-4"
+                    />
+                    <span>Preline UI,</span>
                   </div>
                   <div className="flex items-center gap-1">
-                    <svg
-                      className="w-4 h-4 text-green-600"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path d="M24,1.61H14.06L12,5.16,9.94,1.61H0L12,22.39ZM12,14.08,5.16,2.23H9.59L12,6.41l2.41-4.18h4.43Z" />
-                    </svg>
-                    <span>Vue,</span>
+                    <img
+                      src="/icon/shadcn.png"
+                      alt="Tailwind CSS"
+                      className="w-4 h-4"
+                    />
+                    <span>Shadcn UI</span>
                   </div>
+                  <div className="flex items-center gap-1">
+                    <img
+                      src="/icon/daisyui.jpg"
+                      alt="Tailwind CSS"
+                      className="w-4 h-4"
+                    />
+                    <span>Daisy UI</span>
+                  </div>
+                </div>
+                <div className="flex items-center gap-1">
+                  <img
+                    src="/icon/bulma.png"
+                    alt="Tailwind CSS"
+                    className="w-4 h-4"
+                  />
+                  <span>Bulma</span>
                 </div>
               </div>
             </div>
 
-            {/* Collaboration */}
+            {/* Development Tools */}
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-              <div className="font-medium text-gray-700">Collaboration:</div>
+              <div className="font-medium text-gray-700">
+                Development Tools:
+              </div>
               <div className="md:col-span-3">
                 <div className="flex items-center gap-2 text-gray-700 flex-wrap">
                   <div className="flex items-center gap-1">
-                    <svg
-                      className="w-4 h-4 text-black"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path d="M4.459 4.208c0-.632.516-1.146 1.146-1.146h12.79c.63 0 1.146.516 1.146 1.146v15.584c0 .632-.516 1.146-1.146 1.146H5.605c-.63 0-1.146-.516-1.146-1.146V4.208z" />
-                    </svg>
-                    <span>Notion,</span>
+                    <img
+                      src="/icon/cursorai.webp"
+                      alt="Cursor AI"
+                      className="w-4 h-4"
+                    />
+                    <span>Cursor AI,</span>
                   </div>
                   <div className="flex items-center gap-1">
-                    <svg
-                      className="w-4 h-4 text-yellow-600"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                    </svg>
-                    <span>Mailchimp,</span>
+                    <img
+                      src="/icon/vscode.png"
+                      alt="VS Code"
+                      className="w-4 h-4"
+                    />
+                    <span>VS Code,</span>
                   </div>
                   <div className="flex items-center gap-1">
-                    <svg
-                      className="w-4 h-4 text-purple-600"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path d="M5.042 15.165a2.528 2.528 0 0 0-2.52 2.523A2.528 2.528 0 0 0 5.042 20.21a2.528 2.528 0 0 0 2.52-2.522 2.528 2.528 0 0 0-2.52-2.523z" />
-                    </svg>
-                    <span>Slack,</span>
+                    <img src="/icon/git.png" alt="Git" className="w-4 h-4" />
+                    <span>Git,</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <img src="/icon/npm.png" alt="npm" className="w-4 h-4" />
+                    <span>npm/yarn</span>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Design Expertise */}
+            {/* Frontend Expertise */}
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-              <div className="font-medium text-gray-700">Design Expertise:</div>
+              <div className="font-medium text-gray-700">
+                Frontend Expertise:
+              </div>
               <div className="md:col-span-3">
                 <span className="text-gray-700">
-                  UI/UX Design, Design Systems, Custom Illustrations, Responsive
-                  Design,
+                  Responsive Web Design, API Integration, Component Development,
+                  Figma to Code Conversion, Testing & Bug Fixes, Code
+                  Documentation
                 </span>
               </div>
             </div>
 
-            {/* Soft Skills */}
+            {/* Professional Skills */}
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-              <div className="font-medium text-gray-700">Soft Skills:</div>
+              <div className="font-medium text-gray-700">
+                Professional Skills:
+              </div>
               <div className="md:col-span-3">
                 <span className="text-gray-700">
-                  Strong communication, Problem-solving, Attention to detail,
-                  Time management,
+                  4 Years Frontend Experience, Team Collaboration,
+                  Problem-solving, Attention to Detail, Project Management
                 </span>
               </div>
             </div>
@@ -854,30 +881,30 @@ export default function Home() {
 
             <div className="flex items-center gap-6">
               <a
-                href="https://twitter.com"
+                href="https://instagram.com/wahyudhrmwn"
                 className="text-gray-500 hover:text-gray-700 transition-colors"
-                aria-label="Twitter"
+                aria-label="Instagram"
               >
                 <svg
                   className="w-5 h-5"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                 </svg>
               </a>
 
               <a
-                href="https://dribbble.com"
+                href="https://linkedin.com/in/wahyu-dharmawan"
                 className="text-gray-500 hover:text-gray-700 transition-colors"
-                aria-label="Dribbble"
+                aria-label="LinkedIn"
               >
                 <svg
                   className="w-5 h-5"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M12 0C5.374 0 0 5.373 0 12s5.374 12 12 12 12-5.373 12-12S18.626 0 12 0zm5.568 8.16c-.169 1.858-.896 3.463-2.085 4.652-1.19 1.189-2.794 1.916-4.653 2.085-.047-.001-.094-.003-.141-.003s-.094.002-.141.003c-1.858-.169-3.462-.896-4.652-2.085C4.707 11.623 3.98 10.018 3.811 8.16c.001-.047.003-.094.003-.141s-.002-.094-.003-.141c.169-1.858.896-3.463 2.085-4.652C7.085 1.637 8.689.91 10.548.741c.047.001.094.003.141.003s.094-.002.141-.003c1.858.169 3.462.896 4.652 2.085 1.189 1.19 1.916 2.794 2.085 4.652-.001.047-.003.094-.003.141s.002.094.003.141z" />
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
                 </svg>
               </a>
 
