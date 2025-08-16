@@ -244,6 +244,296 @@ export default function Home() {
           </div>
         </div>
 
+        {/* Skills Section */}
+        <div className="mt-16">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">Skills</h2>
+
+          <div className="space-y-6">
+            {/* Design Tools */}
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+              <div className="font-medium text-gray-700">Design Tools:</div>
+              <div className="md:col-span-3">
+                <div className="flex items-center gap-2 text-gray-700">
+                  <img src="/icon/figma.png" alt="Figma" className="w-4 h-4" />
+                  <span>Figma</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Frontend Technologies */}
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+              <div className="font-medium text-gray-700">
+                Frontend Technologies:
+              </div>
+              <div className="md:col-span-3">
+                <div className="flex items-center gap-2 text-gray-700 flex-wrap">
+                  <div className="flex items-center gap-1">
+                    <img
+                      src="/icon/javascript.png"
+                      alt="JavaScript"
+                      className="w-4 h-4"
+                    />
+                    <span>JavaScript,</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <img
+                      src="/icon/typescript.png"
+                      alt="TypeScript"
+                      className="w-4 h-4"
+                    />
+                    <span>TypeScript,</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <img src="/icon/vue.png" alt="Vue.js" className="w-4 h-4" />
+                    <span>Vue.js,</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <img
+                      src="/icon/next.png"
+                      alt="Next.js"
+                      className="w-4 h-4"
+                    />
+                    <span>Next.js</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Styling & UI */}
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+              <div className="font-medium text-gray-700">Styling & UI:</div>
+              <div className="md:col-span-3">
+                <div className="flex items-center gap-2 text-gray-700 flex-wrap">
+                  <div className="flex items-center gap-1">
+                    <img src="/icon/html.png" alt="HTML5" className="w-4 h-4" />
+                    <span>HTML5,</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <img src="/icon/css.png" alt="CSS3" className="w-4 h-4" />
+                    <span>CSS3,</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <img
+                      src="/icon/tailwindcss.png"
+                      alt="Tailwind CSS"
+                      className="w-4 h-4"
+                    />
+                    <span>Tailwind CSS,</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <img
+                      src="/icon/prelineui.jpg"
+                      alt="Preline UI"
+                      className="w-4 h-4"
+                    />
+                    <span>Preline UI,</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <img
+                      src="/icon/shadcn.png"
+                      alt="Shadcn UI"
+                      className="w-4 h-4"
+                    />
+                    <span>Shadcn UI,</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <img
+                      src="/icon/daisyui.jpg"
+                      alt="Daisy UI"
+                      className="w-4 h-4"
+                    />
+                    <span>Daisy UI,</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <img
+                      src="/icon/bulma.png"
+                      alt="Bulma"
+                      className="w-4 h-4"
+                    />
+                    <span>Bulma</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Development Tools */}
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+              <div className="font-medium text-gray-700">
+                Development Tools:
+              </div>
+              <div className="md:col-span-3">
+                <div className="flex items-center gap-2 text-gray-700 flex-wrap">
+                  <div className="flex items-center gap-1">
+                    <img
+                      src="/icon/cursorai.webp"
+                      alt="Cursor AI"
+                      className="w-4 h-4"
+                    />
+                    <span>Cursor AI,</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <img
+                      src="/icon/vscode.png"
+                      alt="VS Code"
+                      className="w-4 h-4"
+                    />
+                    <span>VS Code,</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <img src="/icon/git.png" alt="Git" className="w-4 h-4" />
+                    <span>Git,</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <img src="/icon/npm.png" alt="npm" className="w-4 h-4" />
+                    <span>npm/yarn</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Frontend Expertise */}
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+              <div className="font-medium text-gray-700">
+                Frontend Expertise:
+              </div>
+              <div className="md:col-span-3">
+                <span className="text-gray-700">
+                  Responsive Web Design, API Integration, Component Development,
+                  Figma to Code Conversion, Testing & Bug Fixes, Code
+                  Documentation
+                </span>
+              </div>
+            </div>
+
+            {/* Professional Skills */}
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+              <div className="font-medium text-gray-700">
+                Professional Skills:
+              </div>
+              <div className="md:col-span-3">
+                <span className="text-gray-700">
+                  4 Years Frontend Experience, Team Collaboration,
+                  Problem-solving, Attention to Detail, Project Management
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Work Experience Section */}
+        <div className="mt-16">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">
+            Work Experience
+          </h2>
+
+          <div className="space-y-8">
+            {/* Experience 1 - Bukit Makmur Mandiri Utama */}
+            <div className="flex gap-6">
+              <div className="flex-shrink-0 w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center">
+                <img
+                  src="/buma.jpg"
+                  alt="Bukit Makmur Mandiri Utama"
+                  className="w-12 h-12"
+                />
+              </div>
+              <div className="flex-grow">
+                <div className="flex justify-between items-start mb-2">
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900">
+                      Frontend Developer at Bukit Makmur Mandiri Utama
+                    </h3>
+                    <p className="text-sm text-gray-600">2021 - present</p>
+                  </div>
+                </div>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Build User Interfaces Develop Components : Create reusable and
+                  maintainable UI components using Vue.js. Type Safety : Write
+                  code with TypeScript to ensure it is type-safe and error-free.
+                  Implement Designs Slicing Designs : Convert designs from Figma
+                  into functional web pages. Design Fidelity : Work with the
+                  design team to ensure the UI matches the provided designs.
+                  Integrate APIs API Calls : Connect the frontend with backend
+                  services using APIs. Data Handling : Manage data from APIs and
+                  ensure it is displayed correctly on the UI. Test and Debug:
+                  Testing : Create and run tests to make sure everything works
+                  as expected. Fix Bugs : Identify and resolve issues in the
+                  code and UI. Maintain and Document Code Updates : Keep the
+                  code up-to-date and improve it as needed. Documentation :
+                  Write clear documentation for the code and components you
+                  develop.
+                </p>
+                {/* <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-lg border border-gray-100">
+                  <img
+                    src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1126&q=80"
+                    alt="Studio by Mailchimp"
+                    className="w-16 h-16 rounded-lg object-cover"
+                  />
+                  <div>
+                    <h4 className="font-medium text-gray-900 mb-1">
+                      Studio by Mailchimp
+                    </h4>
+                    <p className="text-sm text-gray-600">
+                      Produce professional, reliable streams easily leveraging
+                      Mailchimp's innovative broadcast studio.
+                    </p>
+                  </div>
+                </div> */}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Education Section */}
+        <div className="mt-16">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">Education</h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Education 1 - Master's */}
+            <div className="bg-white border border-gray-200 rounded-xl p-6">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center">
+                  <svg
+                    className="w-6 h-6 text-white"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z" />
+                  </svg>
+                </div>
+                <div>
+                  <p className="text-sm text-gray-600">2018 - 2024</p>
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    Bachelor's degree in Information Technology
+                  </h3>
+                  <p className="text-gray-600">Universitas Pamulang</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Education 2 - Bachelor's */}
+            {/* <div className="bg-white border border-gray-200 rounded-xl p-6">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-12 h-12 bg-red-800 rounded-lg flex items-center justify-center">
+                  <svg
+                    className="w-6 h-6 text-white"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z" />
+                  </svg>
+                </div>
+                <div>
+                  <p className="text-sm text-gray-600">2009 - 2012</p>
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    Bachelor's degree in Computer Software Engineering
+                  </h3>
+                  <p className="text-gray-600">Harvard University</p>
+                </div>
+              </div>
+            </div> */}
+          </div>
+        </div>
+
         {/* Projects Section */}
         <div className="mt-16">
           <h2 className="text-2xl font-bold text-gray-900 mb-8">Projects</h2>
@@ -350,361 +640,12 @@ export default function Home() {
               </p>
               <div className="flex items-center space-x-3">
                 <img
-                  src="https://images.unsplash.com/photo-1494790108755-2616b612b19c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
                   alt="Nicole Grazioso"
                   className="w-10 h-10 rounded-full object-cover"
                 />
                 <div>
                   <p className="font-medium text-gray-900">Nicole Grazioso</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Skills Section */}
-        <div className="mt-16">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">Skills</h2>
-
-          <div className="space-y-6">
-            {/* Design Tools */}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-              <div className="font-medium text-gray-700">Design Tools:</div>
-              <div className="md:col-span-3">
-                <div className="flex items-center gap-2 text-gray-700">
-                  <img src="/icon/figma.png" alt="Figma" className="w-4 h-4" />
-                  <span>Figma</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Frontend Technologies */}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-              <div className="font-medium text-gray-700">
-                Frontend Technologies:
-              </div>
-              <div className="md:col-span-3">
-                <div className="flex items-center gap-2 text-gray-700 flex-wrap">
-                  <div className="flex items-center gap-1">
-                    <img
-                      src="/icon/javascript.png"
-                      alt="JavaScript"
-                      className="w-4 h-4"
-                    />
-                    <span>JavaScript,</span>
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <img
-                      src="/icon/typescript.png"
-                      alt="TypeScript"
-                      className="w-4 h-4"
-                    />
-                    <span>TypeScript,</span>
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <img src="/icon/vue.png" alt="Vue.js" className="w-4 h-4" />
-                    <span>Vue.js,</span>
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <img
-                      src="/icon/next.png"
-                      alt="Next.js"
-                      className="w-4 h-4"
-                    />
-                    <span>Next.js</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Styling & UI */}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-              <div className="font-medium text-gray-700">Styling & UI:</div>
-              <div className="md:col-span-3">
-                <div className="flex items-center gap-2 text-gray-700 flex-wrap">
-                  <div className="flex items-center gap-1">
-                    <img src="/icon/html.png" alt="HTML5" className="w-4 h-4" />
-                    <span>HTML5,</span>
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <img src="/icon/css.png" alt="CSS3" className="w-4 h-4" />
-                    <span>CSS3,</span>
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <img
-                      src="/icon/tailwindcss.png"
-                      alt="Tailwind CSS"
-                      className="w-4 h-4"
-                    />
-                    <span>Tailwind CSS,</span>
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <img
-                      src="/icon/prelineui.jpg"
-                      alt="Tailwind CSS"
-                      className="w-4 h-4"
-                    />
-                    <span>Preline UI,</span>
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <img
-                      src="/icon/shadcn.png"
-                      alt="Tailwind CSS"
-                      className="w-4 h-4"
-                    />
-                    <span>Shadcn UI</span>
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <img
-                      src="/icon/daisyui.jpg"
-                      alt="Tailwind CSS"
-                      className="w-4 h-4"
-                    />
-                    <span>Daisy UI</span>
-                  </div>
-                </div>
-                <div className="flex items-center gap-1">
-                  <img
-                    src="/icon/bulma.png"
-                    alt="Tailwind CSS"
-                    className="w-4 h-4"
-                  />
-                  <span>Bulma</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Development Tools */}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-              <div className="font-medium text-gray-700">
-                Development Tools:
-              </div>
-              <div className="md:col-span-3">
-                <div className="flex items-center gap-2 text-gray-700 flex-wrap">
-                  <div className="flex items-center gap-1">
-                    <img
-                      src="/icon/cursorai.webp"
-                      alt="Cursor AI"
-                      className="w-4 h-4"
-                    />
-                    <span>Cursor AI,</span>
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <img
-                      src="/icon/vscode.png"
-                      alt="VS Code"
-                      className="w-4 h-4"
-                    />
-                    <span>VS Code,</span>
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <img src="/icon/git.png" alt="Git" className="w-4 h-4" />
-                    <span>Git,</span>
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <img src="/icon/npm.png" alt="npm" className="w-4 h-4" />
-                    <span>npm/yarn</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Frontend Expertise */}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-              <div className="font-medium text-gray-700">
-                Frontend Expertise:
-              </div>
-              <div className="md:col-span-3">
-                <span className="text-gray-700">
-                  Responsive Web Design, API Integration, Component Development,
-                  Figma to Code Conversion, Testing & Bug Fixes, Code
-                  Documentation
-                </span>
-              </div>
-            </div>
-
-            {/* Professional Skills */}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-              <div className="font-medium text-gray-700">
-                Professional Skills:
-              </div>
-              <div className="md:col-span-3">
-                <span className="text-gray-700">
-                  4 Years Frontend Experience, Team Collaboration,
-                  Problem-solving, Attention to Detail, Project Management
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Work Experience Section */}
-        <div className="mt-16">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">
-            Work Experience
-          </h2>
-
-          <div className="space-y-8">
-            {/* Experience 1 - Mailchimp */}
-            <div className="flex gap-6">
-              <div className="flex-shrink-0 w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center">
-                <svg
-                  className="w-6 h-6 text-black"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                </svg>
-              </div>
-              <div className="flex-grow">
-                <div className="flex justify-between items-start mb-2">
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900">
-                      Senior Software Engineer at Mailchimp
-                    </h3>
-                    <p className="text-sm text-gray-600">2021 - 2023</p>
-                  </div>
-                </div>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  This is an excellent company and they reward their employees.
-                  It's becoming a big company but it's still private, so the
-                  culture is as good as it gets at 1,000+ employees if you ask
-                  me. Managers are still adapting to the growth I think, but
-                  everyone has to. Great place to work.
-                </p>
-                <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-lg border border-gray-100">
-                  <img
-                    src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1126&q=80"
-                    alt="Studio by Mailchimp"
-                    className="w-16 h-16 rounded-lg object-cover"
-                  />
-                  <div>
-                    <h4 className="font-medium text-gray-900 mb-1">
-                      Studio by Mailchimp
-                    </h4>
-                    <p className="text-sm text-gray-600">
-                      Produce professional, reliable streams easily leveraging
-                      Mailchimp's innovative broadcast studio.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Experience 2 - Slack */}
-            <div className="flex gap-6">
-              <div className="flex-shrink-0 w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center">
-                <svg
-                  className="w-6 h-6 text-white"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <path d="M5.042 15.165a2.528 2.528 0 0 0-2.52 2.523A2.528 2.528 0 0 0 5.042 20.21a2.528 2.528 0 0 0 2.52-2.522 2.528 2.528 0 0 0-2.52-2.523zM17.5 4.27c-2.121 0-4.108.983-5.185 2.615l-.069.105a9.769 9.769 0 0 1 1.518 1.31l.32-.497c.652-.984 1.739-1.573 2.929-1.573 1.38 0 2.572.79 3.003 1.993.431 1.203.109 2.545-.811 3.386L13.743 15.8c-.92.841-2.21.841-3.13 0s-.92-2.206 0-3.047l1.575-1.441a6.15 6.15 0 0 0-.787-1.028l-1.575 1.441c-1.841 1.681-1.841 4.413 0 6.094.92.841 2.12 1.262 3.32 1.262s2.4-.42 3.32-1.262L21.928 12.6c1.841-1.681 1.841-4.412 0-6.093-.92-.841-2.121-1.262-3.32-1.262z" />
-                </svg>
-              </div>
-              <div className="flex-grow">
-                <div className="flex justify-between items-start mb-2">
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900">
-                      Junior Software Engineer at Slack
-                    </h3>
-                    <p className="text-sm text-gray-600">2011 - 2021</p>
-                  </div>
-                </div>
-                <p className="text-gray-700 leading-relaxed">
-                  Work in Slack is one of the beautiful experience I can do in
-                  my entire life. There are a lot of interesting thing to learn
-                  and manager respect your time and your personality.
-                </p>
-              </div>
-            </div>
-
-            {/* Experience 3 - Freelance */}
-            <div className="flex gap-6">
-              <div className="flex-shrink-0 w-12 h-12 bg-gray-700 rounded-lg flex items-center justify-center">
-                <svg
-                  className="w-6 h-6 text-white"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <path d="M20 6h-2.18c.11-.31.18-.65.18-1a2.996 2.996 0 0 0-5.5-1.65l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-2 .89-2 2v11c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-5-2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1z" />
-                </svg>
-              </div>
-              <div className="flex-grow">
-                <div className="flex justify-between items-start mb-2">
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900">
-                      Freelance Graphic Designer
-                    </h3>
-                    <p className="text-sm text-gray-600">2010 - 2011</p>
-                  </div>
-                </div>
-                <ul className="text-gray-700 leading-relaxed space-y-2">
-                  <li>
-                    • Worked with a diverse range of clients, delivering
-                    tailored design solutions.
-                  </li>
-                  <li>
-                    • Developed and maintained strong client relationships
-                    through effective communication and project management.
-                  </li>
-                  <li>
-                    • Utilized tools such as Notion for project tracking,
-                    Mailchimp for email marketing designs, Slack for team
-                    collaboration, and GitHub for version control and project
-                    sharing.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Education Section */}
-        <div className="mt-16">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">Education</h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Education 1 - Master's */}
-            <div className="bg-white border border-gray-200 rounded-xl p-6">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center">
-                  <svg
-                    className="w-6 h-6 text-white"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                  >
-                    <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z" />
-                  </svg>
-                </div>
-                <div>
-                  <p className="text-sm text-gray-600">2012 - 2013</p>
-                  <h3 className="text-lg font-semibold text-gray-900">
-                    Master's degree in Computer Software Engineering
-                  </h3>
-                  <p className="text-gray-600">The University of Manchester</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Education 2 - Bachelor's */}
-            <div className="bg-white border border-gray-200 rounded-xl p-6">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-12 h-12 bg-red-800 rounded-lg flex items-center justify-center">
-                  <svg
-                    className="w-6 h-6 text-white"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                  >
-                    <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z" />
-                  </svg>
-                </div>
-                <div>
-                  <p className="text-sm text-gray-600">2009 - 2012</p>
-                  <h3 className="text-lg font-semibold text-gray-900">
-                    Bachelor's degree in Computer Software Engineering
-                  </h3>
-                  <p className="text-gray-600">Harvard University</p>
                 </div>
               </div>
             </div>
