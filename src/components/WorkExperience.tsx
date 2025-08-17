@@ -22,26 +22,52 @@ export default function WorkExperience() {
                 <p className="text-sm text-gray-600">2021 - current</p>
               </div>
             </div>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Build User Interfaces <br /> Develop Components : Create reusable
-              and maintainable UI components using Vue.js. <br /> Type Safety :
-              Write code with TypeScript to ensure it is type-safe and
-              error-free.
-              <br /> <br /> Implement Designs <br /> Slicing Designs : Convert
-              designs from Figma into functional web pages. <br /> Design
-              Fidelity : Work with the design team to ensure the UI matches the
-              provided designs.
-              <br /> <br /> Integrate APIs <br /> API Calls : Connect the
-              frontend with backend services using APIs. <br /> Data Handling :
-              Manage data from APIs and ensure it is displayed correctly on the
-              UI.
-              <br /> <br /> Test and Debug <br /> Testing : Create and run tests
-              to make sure everything works as expected. <br /> Fix Bugs :
-              Identify and resolve issues in the code and UI. <br /> <br />
-              Maintain and Document <br /> Code Updates : Keep the code
-              up-to-date and improve it as needed. <br /> Documentation : Write
-              clear documentation for the code and components you develop.
-            </p>
+            <div className="text-gray-700 leading-relaxed mb-4">
+              <div className="font-bold mt-4">Build User Interfaces</div>
+              <div>
+                Develop Components : Create reusable and maintainable UI
+                components using Vue.js.
+              </div>
+              <div>
+                Type Safety : Write code with TypeScript to ensure it is
+                type-safe and error-free.
+              </div>
+              <div className="font-bold mt-4">Implement Designs</div>
+              <div>
+                Slicing Designs : Convert designs from Figma into functional web
+                pages.
+              </div>
+              <div>
+                Design Fidelity : Work with the design team to ensure the UI
+                matches the provided designs.
+              </div>
+              <div className="font-bold mt-4">Integrate APIs</div>
+              <div>
+                API Calls : Connect the frontend with backend services using
+                APIs.
+              </div>
+              <div>
+                Data Handling : Manage data from APIs and ensure it is displayed
+                correctly on the UI.
+              </div>
+              <div className="font-bold mt-4">Test and Debug</div>
+              <div>
+                Testing : Create and run tests to make sure everything works as
+                expected.
+              </div>
+              <div>
+                Fix Bugs : Identify and resolve issues in the code and UI.
+              </div>
+              <div className="font-bold mt-4">Maintain and Document</div>
+              <div>
+                Code Updates : Keep the code up-to-date and improve it as
+                needed.
+              </div>
+              <div>
+                Documentation : Write clear documentation for the code and
+                components you develop.
+              </div>
+            </div>
           </div>
         </div>
       </div>
