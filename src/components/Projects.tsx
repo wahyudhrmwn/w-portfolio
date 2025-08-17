@@ -12,9 +12,15 @@ export default function Projects() {
               alt="Project 1"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             />
-            {/* Hover Overlay */}
-            <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            {/* Desktop Hover Overlay */}
+            <div className="hidden md:flex absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 items-center justify-center">
               <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-medium hover:bg-gray-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
+                View Project
+              </button>
+            </div>
+            {/* Mobile Always Visible Button */}
+            <div className="md:hidden absolute inset-0 bg-black/20 flex items-center justify-center">
+              <button className="bg-white text-gray-900 px-4 py-2 rounded-full font-medium hover:bg-gray-100 transition-colors text-sm">
                 View Project
               </button>
             </div>
@@ -29,9 +35,15 @@ export default function Projects() {
               alt="Project 2"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             />
-            {/* Hover Overlay */}
-            <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            {/* Desktop Hover Overlay */}
+            <div className="hidden md:flex absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 items-center justify-center">
               <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-medium hover:bg-gray-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
+                View Project
+              </button>
+            </div>
+            {/* Mobile Always Visible Button */}
+            <div className="md:hidden absolute inset-0 bg-black/20 flex items-center justify-center">
+              <button className="bg-white text-gray-900 px-4 py-2 rounded-full font-medium hover:bg-gray-100 transition-colors text-sm">
                 View Project
               </button>
             </div>
@@ -46,9 +58,15 @@ export default function Projects() {
               alt="Project 3"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             />
-            {/* Hover Overlay */}
-            <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            {/* Desktop Hover Overlay */}
+            <div className="hidden md:flex absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 items-center justify-center">
               <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-medium hover:bg-gray-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
+                View Project
+              </button>
+            </div>
+            {/* Mobile Always Visible Button */}
+            <div className="md:hidden absolute inset-0 bg-black/20 flex items-center justify-center">
+              <button className="bg-white text-gray-900 px-4 py-2 rounded-full font-medium hover:bg-gray-100 transition-colors text-sm">
                 View Project
               </button>
             </div>
@@ -63,9 +81,15 @@ export default function Projects() {
               alt="Project 4"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             />
-            {/* Hover Overlay */}
-            <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            {/* Desktop Hover Overlay */}
+            <div className="hidden md:flex absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 items-center justify-center">
               <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-medium hover:bg-gray-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
+                View Project
+              </button>
+            </div>
+            {/* Mobile Always Visible Button */}
+            <div className="md:hidden absolute inset-0 bg-black/20 flex items-center justify-center">
+              <button className="bg-white text-gray-900 px-4 py-2 rounded-full font-medium hover:bg-gray-100 transition-colors text-sm">
                 View Project
               </button>
             </div>
@@ -80,9 +104,15 @@ export default function Projects() {
               alt="Project 5"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             />
-            {/* Hover Overlay */}
-            <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            {/* Desktop Hover Overlay */}
+            <div className="hidden md:flex absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 items-center justify-center">
               <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-medium hover:bg-gray-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
+                View Project
+              </button>
+            </div>
+            {/* Mobile Always Visible Button */}
+            <div className="md:hidden absolute inset-0 bg-black/20 flex items-center justify-center">
+              <button className="bg-white text-gray-900 px-4 py-2 rounded-full font-medium hover:bg-gray-100 transition-colors text-sm">
                 View Project
               </button>
             </div>
@@ -97,9 +127,15 @@ export default function Projects() {
               alt="Project 6"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             />
-            {/* Hover Overlay */}
-            <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            {/* Desktop Hover Overlay */}
+            <div className="hidden md:flex absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 items-center justify-center">
               <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-medium hover:bg-gray-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
+                View Project
+              </button>
+            </div>
+            {/* Mobile Always Visible Button */}
+            <div className="md:hidden absolute inset-0 bg-black/20 flex items-center justify-center">
+              <button className="bg-white text-gray-900 px-4 py-2 rounded-full font-medium hover:bg-gray-100 transition-colors text-sm">
                 View Project
               </button>
             </div>
